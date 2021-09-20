@@ -42,7 +42,6 @@ describe("checkMultipleOf", ()=>{
 
 // b) Create the function that makes the test pass.
 let checkMultipleOf=(num1)=>{
-    if(num1===0)return "0 is divisible by 3"
     if(num1%3===0){
         return `${num1} is divisible by 3`
     }return `${num1} is not divisible by 3`
